@@ -4,7 +4,7 @@ A flashing dual-LED badge circuit designed in KiCad 10 as a beginner PCB design 
 
 ## How it works
 
-The ICM7555 CMOS timer runs in astable mode, generating a continuous oscillating signal. The output drives a 2N3904 NPN transistor which switches two red LEDs on and off alternately. Timing is controlled by resistors and capacitors connected to the threshold and trigger pins. CV is used for ground and is marked as X due to it not being needed for this exercise.
+The ICM7555 CMOS timer runs in astable mode, generating a continuous oscillating signal. The output drives a 2N3904 NPN transistor which switches two red LEDs on and off alternately. Timing is controlled by resistors and capacitors connected to the threshold and trigger pins. The control voltage pin (pin 5) doesn't need a decoupling capacitor with the ICM7555, so it has been marked X.
 
 ## Components
 
